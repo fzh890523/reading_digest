@@ -55,12 +55,35 @@ int get_ticket()
 
 int release_ticket()
 {
-
+  char buf[BUFSIZE];
+  char * response;
+  if(!have_ticket) return(0);
+  sprintf(buf, "GBYE %s", ticket_buf);
+  if((response = do_transaction(buf)) == NULL) return(-1);
+  if(strncmp(response, "THNX", 4) == 0){
+    narrate("released ticket OK", "");
+    return(0);
+  }
+  if(strncmp(response, "FAIL", 4) == 0) narrate("release fauked:", response);
+  else narrate("unknown message:", response);
+  return(-1);
 }
 
 char * do_transaction(char *msg)
 {
-
+  static char buf[BUFSIZE];
+  struct sockaddr retaddr;
+  socklen_t addrlen = sizeof(retaddr);
+  int ret;
+  if((ret = sendto(sd, msg, strlen(msg), 0, &serv_addr, serv_alen)) == -1){
+    syserr("sendto");
+    return(NULL);
+  }
+  if((sd, buf, MSGLEN, 0, &retaddr, &addrlen) == -1){
+    syserr("recvfrom");
+    return(NULL);
+  }
+  return(buf);
 }
 
 void narrate(char * msg1, char * msg2)

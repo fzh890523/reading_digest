@@ -1,0 +1,197 @@
+about me/2,Black,notBold,notItalic,closed,FitPage
+schedules/3,Black,notBold,notItalic,open,FitPage
+语言处理器的基本结构/5,Black,notBold,notItalic,closed,FitPage
+sun JDK是如何实现Java语言的?/10,Black,notBold,notItalic,open,FitPage
+	java从源码到执行流经何处？/11,Black,notBold,notItalic,closed,FitPage
+	Java语言的基本特征/14,Black,notBold,notItalic,closed,FitPage
+	Java语言的类型系统/15,Black,notBold,notItalic,closed,FitPage
+	Java语言是.../16,Black,notBold,notItalic,closed,FitPage
+Java平台/18,Black,notBold,notItalic,open,FitPage
+	高级语言程序的处理环境/26,Black,notBold,notItalic,closed,FitPage
+	具体到Java的情况/27,Black,notBold,notItalic,closed,FitPage
+java源码级编译器（javac）/29,Black,notBold,notItalic,open,FitPage
+	一些历史/31,Black,notBold,notItalic,closed,FitPage
+	语法树/32,Black,notBold,notItalic,closed,FitPage
+	javac工作流程/33,Black,notBold,notItalic,closed,FitPage
+	解析（parse）/35,Black,notBold,notItalic,closed,FitPage
+	将符号输入符号表（enter）/38,Black,notBold,notItalic,closed,FitPage
+	注解处理/41,Black,notBold,notItalic,closed,FitPage
+	标注（attr）和检查（check）/44,Black,notBold,notItalic,closed,FitPage
+	数据流分析（flow）/47,Black,notBold,notItalic,closed,FitPage
+	转换类型（transTypes）/48,Black,notBold,notItalic,closed,FitPage
+	解除语法糖（lower）/51,Black,notBold,notItalic,closed,FitPage
+	生成Class文件（gen）/55,Black,notBold,notItalic,closed,FitPage
+	生成java虚拟机字节码/56,Black,notBold,notItalic,closed,FitPage
+Class文件/57,Black,notBold,notItalic,open,FitPage
+	class文件所记录的信息/58,Black,notBold,notItalic,closed,FitPage
+	class文件例子/60,Black,notBold,notItalic,closed,FitPage
+	class文件与jdk的版本/64,Black,notBold,notItalic,closed,FitPage
+java虚拟机/66,Black,notBold,notItalic,open,FitPage
+	什么是虚拟机？/67,Black,notBold,notItalic,closed,FitPage
+	概念中java虚拟机的基本结构/70,Black,notBold,notItalic,closed,FitPage
+	? java虚拟机的类型系统/71,Black,notBold,notItalic,closed,FitPage
+	java虚拟机的基本特征/72,Black,notBold,notItalic,closed,FitPage
+	java虚拟机字节码/73,Black,notBold,notItalic,closed,FitPage
+		设计目标/74,Black,notBold,notItalic,closed,FitPage
+		指令类别/75,Black,notBold,notItalic,closed,FitPage
+	基于栈与基于寄存器的体系结构的区别/76,Black,notBold,notItalic,closed,FitPage
+	jvm的方法调用栈/78,Black,notBold,notItalic,closed,FitPage
+	栈帧中局部变量区的slot的复用/82,Black,notBold,notItalic,closed,FitPage
+	类与类加载/93,Black,notBold,notItalic,open,FitPage
+		class文件校验/94,Black,notBold,notItalic,closed,FitPage
+		类型层次/95,Black,notBold,notItalic,closed,FitPage
+sun hotspot VM/96,Black,notBold,notItalic,open,FitPage
+	hotspot VM的前世今生/98,Black,notBold,notItalic,closed,FitPage
+	JVM在哪里？/99,Black,notBold,notItalic,closed,FitPage
+		不在哪里？/100,Black,notBold,notItalic,closed,FitPage
+		在哪里？/101,Black,notBold,notItalic,closed,FitPage
+	hotspot VM的基本结构/102,Black,notBold,notItalic,closed,FitPage
+	hotspot VM的版本信息/104,Black,notBold,notItalic,closed,FitPage
+	hotspot VM的运行时支持/108,Black,notBold,notItalic,open,FitPage
+		启动程序（launcher）/110,Black,notBold,notItalic,closed,FitPage
+		? java对象布局/111,Black,notBold,notItalic,open,FitPage
+			oop/126,Black,notBold,notItalic,open,FitPage
+				oop与klass/127,Black,notBold,notItalic,closed,FitPage
+				markOop/128,Black,notBold,notItalic,closed,FitPage
+				Compressed oop/129,Black,notBold,notItalic,closed,FitPage
+			? constantPoolCache/130,Black,notBold,notItalic,closed,FitPage
+		类加载与类加载器/131,Black,notBold,notItalic,open,FitPage
+			? 类加载器查找到类的方式/132,Black,notBold,notItalic,closed,FitPage
+			类加载与SystemDictionary/133,Black,notBold,notItalic,closed,FitPage
+			类加载与对象布局/134,Black,notBold,notItalic,closed,FitPage
+			? 字节码校验器与class文件格式校验器/135,Black,notBold,notItalic,open,FitPage
+				split verifier/136,Black,notBold,notItalic,closed,FitPage
+				? 老字节码校验器/137,Black,notBold,notItalic,closed,FitPage
+		? hotspot中的java相关对象/139,Black,notBold,notItalic,open,FitPage
+			constMethodOop/141,Black,notBold,notItalic,closed,FitPage
+			methodOop的多个入口/142,Black,notBold,notItalic,closed,FitPage
+			适配器栈帧/143,Black,notBold,notItalic,closed,FitPage
+			调用约定与栈帧适配器/144,Black,notBold,notItalic,closed,FitPage
+			统一的调用栈/145,Black,notBold,notItalic,closed,FitPage
+		快速子类型检查/147,Black,notBold,notItalic,closed,FitPage
+		hotspot里的线程/153,Black,notBold,notItalic,closed,FitPage
+		? 安全的停止线程-safepoint/157,Black,notBold,notItalic,closed,FitPage
+		? lightweight locking/158,Black,notBold,notItalic,closed,FitPage
+		? biased locking/159,Black,notBold,notItalic,closed,FitPage
+		类数据共享（CDS）/160,Black,notBold,notItalic,closed,FitPage
+	hotspot VM的内存管理/161,Black,notBold,notItalic,open,FitPage
+		分代式收集的堆/162,Black,notBold,notItalic,closed,FitPage
+		老版本hotspot VM用过的GC/163,Black,notBold,notItalic,closed,FitPage
+		GCHisto/164,Black,notBold,notItalic,closed,FitPage
+	hotspot与解释器/165,Black,notBold,notItalic,open,FitPage
+		? 实现高效解释器的一种思路/166,Black,notBold,notItalic,closed,FitPage
+		存储程序计算机的核心循环-FDX/167,Black,notBold,notItalic,open,FitPage
+			直观实现-switch threading/170,Black,notBold,notItalic,closed,FitPage
+			token-threading/171,Black,notBold,notItalic,open,FitPage
+		? 通过汇编精确控制寄存器的使用/173,Black,notBold,notItalic,open,FitPage
+		? 栈顶缓存（tos caching）/174,Black,notBold,notItalic,closed,FitPage
+		操作数栈的栈顶状态（tosState）/175,Black,notBold,notItalic,closed,FitPage
+		基于模板的解释器/176,Black,notBold,notItalic,open,FitPage
+			一个简单的指令模板-iconst/178,Black,notBold,notItalic,closed,FitPage
+		超级指令/180,Black,notBold,notItalic,closed,FitPage
+		hotspot的解释器与safepoint/182,Black,notBold,notItalic,closed,FitPage
+		从解释器到编译器/184,Black,notBold,notItalic,closed,FitPage
+		解释执行的开销/186,Black,notBold,notItalic,closed,FitPage
+		inline-threading/190,Black,notBold,notItalic,closed,FitPage
+		使用解释器的好处/191,Black,notBold,notItalic,closed,FitPage
+		hotspot解释器的栈帧布局/192,Black,notBold,notItalic,closed,FitPage
+		概念上与hotspot解释器中栈帧的关系/194,Black,notBold,notItalic,closed,FitPage
+		hotspot解释器中的方法调用/195,Black,notBold,notItalic,open,FitPage
+			? 解释器中的invokestatic/196,Black,notBold,notItalic,closed,FitPage
+			? 解释器中的invokespecial/197,Black,notBold,notItalic,closed,FitPage
+			解释器中的invokevirtual/198,Black,notBold,notItalic,closed,FitPage
+			? 解释器中的invokeinterface/199,Black,notBold,notItalic,closed,FitPage
+		hotspot interpreter in action/201,Black,notBold,notItalic,closed,FitPage
+	hotspot与JIT编译器/202,Black,notBold,notItalic,open,FitPage
+		jvm的常见优化/203,Black,notBold,notItalic,closed,FitPage
+		解释与动态编译（client VM例）/205,Black,notBold,notItalic,closed,FitPage
+		解释与动态编译-后台编译/206,Black,notBold,notItalic,closed,FitPage
+		解释与动态编译-禁用后台编译/207,Black,notBold,notItalic,closed,FitPage
+		从解释转入编译/208,Black,notBold,notItalic,closed,FitPage
+		根据计数器触发编译的条件/209,Black,notBold,notItalic,closed,FitPage
+		由计数器触发的JIT编译/210,Black,notBold,notItalic,closed,FitPage
+		计数器的"衰减"（decay）/212,Black,notBold,notItalic,closed,FitPage
+		解释器可以收集性能剖析信息（profiling）/213,Black,notBold,notItalic,closed,FitPage
+		固有函数（intrinisics）/215,Black,notBold,notItalic,closed,FitPage
+		隐式异常处理/216,Black,notBold,notItalic,closed,FitPage
+		逃逸分析/217,Black,notBold,notItalic,closed,FitPage
+		标量替换（scalar replacement）/218,Black,notBold,notItalic,closed,FitPage
+		栈上分配/219,Black,notBold,notItalic,closed,FitPage
+		锁消除/220,Black,notBold,notItalic,closed,FitPage
+		? 增加锁粒度/221,Black,notBold,notItalic,closed,FitPage
+		JIT编译器不只要生成代码/222,Black,notBold,notItalic,closed,FitPage
+		JIT编译器生成的nmethod对象/223,Black,notBold,notItalic,closed,FitPage
+		虚方法分派/224,Black,notBold,notItalic,open,FitPage
+			实质/225,Black,notBold,notItalic,closed,FitPage
+			方法内联/226,Black,notBold,notItalic,closed,FitPage
+			C++的常见做法/227,Black,notBold,notItalic,closed,FitPage
+		类层次分析（CHA）/229,Black,notBold,notItalic,closed,FitPage
+			去虚拟化/231,Black,notBold,notItalic,closed,FitPage
+		inline cache/232,Black,notBold,notItalic,closed,FitPage
+		? self-modifying code/234,Black,notBold,notItalic,closed,FitPage
+		hotspot实现的虚方法分派/235,Black,notBold,notItalic,closed,FitPage
+		栈上替换（OSR）/236,Black,notBold,notItalic,closed,FitPage
+		方法内联/237,Black,notBold,notItalic,open,FitPage
+			带来的代码膨胀问题/238,Black,notBold,notItalic,closed,FitPage
+			hotspot的内联选项/239,Black,notBold,notItalic,closed,FitPage
+		逆优化/240,Black,notBold,notItalic,closed,FitPage
+		安全性/241,Black,notBold,notItalic,closed,FitPage
+		实验：hotspot的启动参数/242,Black,notBold,notItalic,closed,FitPage
+		hotsp Client Compiler（C1）/245,Black,notBold,notItalic,open,FitPage
+			hotspot Client VM/246,Black,notBold,notItalic,closed,FitPage
+			C1的工作流程/247,Black,notBold,notItalic,closed,FitPage
+			HIR/248,Black,notBold,notItalic,closed,FitPage
+			? SSA/249,Black,notBold,notItalic,closed,FitPage
+			抽象解释/250,Black,notBold,notItalic,closed,FitPage
+			方法内联/252,Black,notBold,notItalic,closed,FitPage
+			LIR/252,Black,notBold,notItalic,closed,FitPage
+			? 线性扫描寄存器分配器/254,Black,notBold,notItalic,closed,FitPage
+			c1visualizer/255,Black,notBold,notItalic,closed,FitPage
+		hotspot Server Compiler（C2）/257,Black,notBold,notItalic,open,FitPage
+			一些参数/258,Black,notBold,notItalic,closed,FitPage
+			Sea-of-nodes/259,Black,notBold,notItalic,closed,FitPage
+			? 全局值编号（GVN）/260,Black,notBold,notItalic,closed,FitPage
+			? 循环不变量代码外提（LICM）/261,Black,notBold,notItalic,closed,FitPage
+			? 循环展开/262,Black,notBold,notItalic,closed,FitPage
+			? 消除冗余数组边界检查（RCE）/263,Black,notBold,notItalic,closed,FitPage
+			uncommon trap/264,Black,notBold,notItalic,closed,FitPage
+			? 自底向上改写系统（BURS）/265,Black,notBold,notItalic,closed,FitPage
+			? 图着色寄存器分配器/266,Black,notBold,notItalic,closed,FitPage
+			最终的机器码生成/267,Black,notBold,notItalic,closed,FitPage
+			多层编译/269,Black,notBold,notItalic,closed,FitPage
+			Ideal Graph Visualizer/270,Black,notBold,notItalic,closed,FitPage
+	hotspot VM的查看工具/272,Black,notBold,notItalic,open,FitPage
+		? JConsole/273,Black,notBold,notItalic,closed,FitPage
+		? VisualVM/274,Black,notBold,notItalic,closed,FitPage
+		SA/275,Black,notBold,notItalic,closed,FitPage
+	hotspot VM未来展望/276,Black,notBold,notItalic,open,FitPage
+		版本51.0的class文件/277,Black,notBold,notItalic,closed,FitPage
+		? MethodHandle/278,Black,notBold,notItalic,closed,FitPage
+		? invokedynamic/279,Black,notBold,notItalic,closed,FitPage
+		hotSwap/280,Black,notBold,notItalic,closed,FitPage
+		? 协程/281,Black,notBold,notItalic,closed,FitPage
+		? auto object inlining/282,Black,notBold,notItalic,closed,FitPage
+		? multi-tasking VM(MVM)/283,Black,notBold,notItalic,closed,FitPage
+除hotspot外sun的JVM/284,Black,notBold,notItalic,open,FitPage
+	早期/285,Black,notBold,notItalic,closed,FitPage
+	嵌入式/286,Black,notBold,notItalic,closed,FitPage
+	元循环VM/288,Black,notBold,notItalic,closed,FitPage
+	实时java/289,Black,notBold,notItalic,closed,FitPage
+	硬件实现/290,Black,notBold,notItalic,closed,FitPage
+	其他JVM部分列表/291,Black,notBold,notItalic,closed,FitPage
+其他JVM的执行引擎的技术方案/292,Black,notBold,notItalic,open,FitPage
+	azul JVM/293,Black,notBold,notItalic,closed,FitPage
+	IBM J9/294,Black,notBold,notItalic,closed,FitPage
+	Jikes RVM/297,Black,notBold,notItalic,closed,FitPage
+	apache Harmony/299,Black,notBold,notItalic,closed,FitPage
+	joeq/301,Black,notBold,notItalic,closed,FitPage
+	CVM/303,Black,notBold,notItalic,closed,FitPage
+	推荐阅读/306,Black,notBold,notItalic,closed,FitPage
+推荐阅读/306,Black,notBold,notItalic,open,FitPage
+	推荐书籍/307,Black,notBold,notItalic,closed,FitPage
+	较老书籍/308,Black,notBold,notItalic,closed,FitPage
+	推荐网站与博客/309,Black,notBold,notItalic,closed,FitPage
+附录A：sun JDK历史与JVM/311,Black,notBold,notItalic,open,FitPage
+	sun JDK版本/312,Black,notBold,notItalic,closed,FitPage
+	Oracle/Sun JDK版本/318,Black,notBold,notItalic,closed,FitPage
+	Oracle JDK版本/319,Black,notBold,notItalic,closed,FitPage
